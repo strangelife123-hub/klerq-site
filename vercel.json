@@ -1,0 +1,6 @@
+{
+  "redirects": [
+    { "source": "/old-docs", "destination": "/docs-temp", "permanent": true },
+    { "source": "/docs-temp", "destination": "/docs", "permanent": true }
+  ]
+}
