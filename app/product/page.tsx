@@ -19,7 +19,7 @@ export default function Product() {
         without standing up their own machine-learning stack.
       </p>
 
-      <h3>Supported document types</h3>
+      <h2>Supported document types</h2>
       <p>
         Klerq ships with pre-built extractors for the documents businesses deal
         with every day:
