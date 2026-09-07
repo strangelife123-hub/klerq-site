@@ -13,10 +13,9 @@ export default function Product() {
       <p className="meta">Product overview</p>
 
       <p>
-        Klerq is a document-processing API. You send it a document — a PDF, a
-        scan, a photo — and it returns the fields you care about as structured
-        JSON. It is built for engineering teams who need reliable extraction
-        without standing up their own machine-learning stack.
+        Klerq is a fictional document-processing API company presented on a
+        demonstration website operated by Far and Wide B.V. It is not a real
+        API or software provider and sells no products or services.
       </p>
 
       <h2>Supported document types</h2>
