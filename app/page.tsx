@@ -24,39 +24,18 @@ export default function Home() {
       <section>
         <div className="container">
           <p className="lead" style={{ textAlign: "center", margin: "0 auto" }}>
-            Teams building the next generation of finance, legal and operations
-            tools run on Klerq.
+            Klerq is a fictional developer API company used by Far and Wide B.V.
+            to test audit and fix machinery. It serves no real customers.
           </p>
-          <div className="logos">
-            <span>Northwall</span>
-            <span>Halden</span>
-            <span>Bakhuis &amp; Stroom</span>
-            <span>Reeva</span>
-            <span>Kliniek Vondel</span>
-          </div>
         </div>
       </section>
 
       <section>
         <div className="container">
-          <div className="stats">
-            <div className="stat">
-              <div className="num">99.4%</div>
-              <div className="label">extraction accuracy</div>
-            </div>
-            <div className="stat">
-              <div className="num">50&nbsp;ms</div>
-              <div className="label">average response time</div>
-            </div>
-            <div className="stat">
-              <div className="num">12M+</div>
-              <div className="label">documents processed</div>
-            </div>
-            <div className="stat">
-              <div className="num">2023</div>
-              <div className="label">building since</div>
-            </div>
-          </div>
+          <p className="lead" style={{ textAlign: "center", margin: "0 auto" }}>
+            Product capabilities, performance claims, customer names, and usage
+            examples on this site are demonstration content, not real-world facts.
+          </p>
         </div>
       </section>
 
