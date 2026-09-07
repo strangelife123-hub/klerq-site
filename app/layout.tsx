@@ -14,6 +14,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        {/* fw:injected:jsonld:unknown:ee647904e3ea */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: '{"@context": "https://schema.org", "@graph": [{"@id": "https://klerq-site.vercel.app/blog/how-we-parse-invoices#article", "@type": "BlogPosting", "author": {"@id": "https://klerq-site.vercel.app/#organization"}, "datePublished": "2023-09-02", "description": "A walkthrough of how Klerq normalises a scanned page, understands its layout, and extracts typed fields from messy invoices into structured JSON.", "headline": "How we parse a messy invoice", "inLanguage": "en", "mainEntityOfPage": "https://klerq-site.vercel.app/blog/how-we-parse-invoices", "publisher": {"@id": "https://klerq-site.vercel.app/#organization"}}, {"@id": "https://klerq-site.vercel.app/blog/how-we-parse-invoices#breadcrumb", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "item": "https://klerq-site.vercel.app/", "name": "Home", "position": 1}, {"@type": "ListItem", "item": "https://klerq-site.vercel.app/blog", "name": "Blog", "position": 2}, {"@type": "ListItem", "item": "https://klerq-site.vercel.app/blog/how-we-parse-invoices", "name": "How we parse a messy invoice", "position": 3}]}]}' }}
+        />
+
         {/* fw:injected:jsonld:unknown:5038512bea9d */}
         <script
           type="application/ld+json"
