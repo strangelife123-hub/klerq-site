@@ -1,4 +1,5 @@
 export const metadata = {
+  description: "Contact Klerq to request an API key for the document-processing API that turns invoices, contracts and forms into structured JSON.",
   title: "Contact Klerq",
 };
 
