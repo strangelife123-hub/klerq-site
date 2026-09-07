@@ -9,7 +9,7 @@ export default function Post() {
       <p className="meta">14 March 2022</p>
 
       <p>
-        Today we&apos;re launching Clerq, a simple API for turning documents
+        Today we&apos;re presenting Klerq, a fictional API demo for turning documents
         into structured data. For the last year we&apos;ve been building
         document extraction into our own products, and we kept wishing there was
         a service we could just call. So we built one.
