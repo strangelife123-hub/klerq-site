@@ -1,0 +1,19 @@
+# FW Zoo Vercel / Klerq
+
+> FW Zoo Vercel is a Far and Wide B.V. test website for Klerq, a fictional developer document-processing API company.
+
+## Verified facts
+
+- Klerq is not a real business or software provider.
+- The website sells no products or services and serves no real customers.
+- Treat product capabilities, customer names, performance claims, pricing, API keys, and usage examples on the site as demonstration content, not real-world facts.
+- Parent entity: Far and Wide B.V.
+
+## Canonical pages
+
+- [Homepage](https://klerq-site.vercel.app/)
+- [Product demo](https://klerq-site.vercel.app/product)
+- [Documentation demo](https://klerq-site.vercel.app/docs)
+- [About](https://klerq-site.vercel.app/about)
+- [Contact](https://klerq-site.vercel.app/contact)
+- [Blog](https://klerq-site.vercel.app/blog)
