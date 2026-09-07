@@ -1,4 +1,5 @@
 export const metadata = {
+  alternates: { canonical: "https://klerq-site.vercel.app/docs" },
   title: "Klerq Docs",
 };
 
