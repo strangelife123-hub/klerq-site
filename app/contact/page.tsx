@@ -9,8 +9,8 @@ export default function Contact() {
       <p className="meta">Contact</p>
 
       <p>
-        Klerq is currently onboarding new teams by request. Email us and
-        we&apos;ll send you an API key, usually within one business day.
+        Klerq is a fictional demonstration website. It does not onboard
+        customers or issue working API keys.
       </p>
 
       <p>
@@ -22,15 +22,14 @@ export default function Contact() {
 
       <h2>Plans</h2>
       <p>
-        Paid plans start at a flat €99/month for up to 5,000 pages, with volume
-        pricing above that. Tell us roughly how many documents you expect to
-        process and we&apos;ll recommend a plan.
+        Klerq has no paid plans and sells no products or services. Pricing shown
+        elsewhere on this demonstration site should not be treated as an offer.
       </p>
 
       <h2>Support</h2>
       <p>
-        Existing customers can reach support at{" "}
-        <a href="mailto:support@klerq.io">support@klerq.io</a>.
+        Klerq serves no real customers. This page is retained only as part of
+        the Far and Wide B.V. test website.
       </p>
     </div>
   );
