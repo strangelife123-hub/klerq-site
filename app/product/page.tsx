@@ -9,7 +9,7 @@ export const metadata = {
 export default function Product() {
   return (
     <div className="prose">
-      <h1>The Klerq API</h1>
+      <h1>The Klerq API — document data extraction</h1>
       <p className="meta">Product overview</p>
 
       <p>
