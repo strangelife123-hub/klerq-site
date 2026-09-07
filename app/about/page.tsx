@@ -9,23 +9,19 @@ export default function About() {
       <p className="meta">Who we are</p>
 
       <p>
-        Klerq was founded in 2021 in Amsterdam by a small team of engineers who
-        were tired of building the same document-parsing code over and over
-        again. What started as an internal tool for a fintech became the API we
-        offer today.
+        Klerq is a fictional developer document-processing API company used in
+        a demonstration website operated by Far and Wide B.V.
       </p>
 
       <p>
-        We believe extracting data from documents should be a solved problem —
-        something you call, not something you build. Our pricing reflects that:
-        usage-based plans start at €0.01 per page, with no minimums and no
-        setup fees.
+        This website exists to test audit and fix machinery end-to-end. Klerq
+        does not sell products or services and has no paid tier.
       </p>
 
       <p>
-        Today Klerq is used by teams across finance, legal and operations to
-        process millions of documents. We are a remote-first company with
-        near-perfect uptime and a focus on doing one thing well.
+        Klerq is not a real business or software provider and serves no real
+        customers. Product and usage examples on this site are demonstration
+        content.
       </p>
 
       <h2>What we care about</h2>
