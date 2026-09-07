@@ -8,7 +8,7 @@ export default function Home() {
       <section className="hero" style={{ borderTop: "none" }}>
         <div className="container">
           <div className="eyebrow">Document AI, for builders</div>
-          <h1>Documents, understood.</h1>
+          <h1>Document-processing API — Klerq</h1>
           <p className="sub">
             Klerq turns invoices, contracts and forms into clean, structured
             JSON — with a single API call. No models to train, no templates to
