@@ -38,11 +38,3 @@ export default function Post() {
     </div>
   );
 }
-
-{/* fw:injected-no-body */}
-        {/* fw:injected:jsonld:BlogPosting:5f551cdb4a42 */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: '{"@context": "https://schema.org", "@id": "https://klerq-site.vercel.app/blog/introducing-klerq#article", "@type": "BlogPosting", "about": {"@id": "https://klerq-site.vercel.app/#klerq-demo"}, "description": "An article in the test site introducing the fictional Klerq document-processing API company.", "headline": "Introducing Klerq", "inLanguage": "en", "isPartOf": {"@id": "https://klerq-site.vercel.app/blog#blog"}, "mainEntityOfPage": {"@id": "https://klerq-site.vercel.app/blog/introducing-klerq#webpage"}, "name": "Introducing Klerq", "publisher": {"@id": "https://klerq-site.vercel.app/#organization"}, "url": "https://klerq-site.vercel.app/blog/introducing-klerq"}' }}
-        />
-
