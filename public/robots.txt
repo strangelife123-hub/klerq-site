@@ -1,3 +1,33 @@
+# Far & Wide — allow AI answer engines to crawl and cite this site
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# fw:merge:robots_txt:ab866bc0
+
 # Klerq — robots.txt
 # (Intentionally blocks AI crawlers — this is a Far & Wide Zoo test fixture.)
 
