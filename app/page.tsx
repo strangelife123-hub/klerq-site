@@ -85,7 +85,7 @@ export default function Home() {
 # → { "vendor": "Acme BV", "total": 1240.50,
 #     "currency": "EUR", "due_date": "2024-06-30" }`}</code>
           </pre>
-          <img src="/product-shot.svg" width={960} height={420} style={{ maxWidth: "100%", marginTop: 32, borderRadius: 12, border: "1px solid var(--border)" }} />
+          <img src="/product-shot.svg" alt="Document fields extracted into structured JSON" width={960} height={420} style={{ maxWidth: "100%", marginTop: 32, borderRadius: 12, border: "1px solid var(--border)" }} />
         </div>
       </section>
 
