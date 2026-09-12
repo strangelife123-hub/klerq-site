@@ -16,8 +16,18 @@ const entries = [
     source: "app/blog/introducing-klerq/page.tsx",
     published: "2022-03-14",
   },
-  { path: "/product", source: "app/product/page.tsx" },
-  { path: "/docs", source: "app/docs/page.tsx" },
+  {
+    path: "/product",
+    source: "app/product/page.tsx",
+    changeFrequency: "monthly",
+    priority: 0.9,
+  },
+  {
+    path: "/docs",
+    source: "app/docs/page.tsx",
+    changeFrequency: "monthly",
+    priority: 0.9,
+  },
   { path: "/contact", source: "app/contact/page.tsx" },
 ];
 
@@ -39,8 +49,14 @@ function lastModified({ source, published }) {
 export function generateSitemap() {
   const urls = entries
     .map((entry) => {
+      const changeFrequency = entry.changeFrequency
+        ? `    <changefreq>${entry.changeFrequency}</changefreq>\n`
+        : "";
+      const priority = entry.priority
+        ? `    <priority>${entry.priority.toFixed(1)}</priority>\n`
+        : "";
       const loc = entry.path === "/" ? `${origin}/` : `${origin}${entry.path}`;
-      return `  <url>\n    <loc>${loc}</loc>\n    <lastmod>${lastModified(entry)}</lastmod>\n  </url>`;
+      return `  <url>\n    <loc>${loc}</loc>\n    <lastmod>${lastModified(entry)}</lastmod>\n${changeFrequency}${priority}  </url>`;
     })
     .join("\n");
 
