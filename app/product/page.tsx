@@ -29,6 +29,13 @@ export default function Product() {
         <li>Contracts and agreements</li>
         <li>Structured forms and applications</li>
       </ul>
+      <p>
+        The demonstration accepts a PDF or image. For invoices, the example
+        output includes a vendor name, numeric total, currency and due date.
+        Scans and photographs use the same structured JSON format as clean PDFs.
+        Contracts, receipts and forms are included as document categories in the
+        demonstration; no production field schema is offered.
+      </p>
 
       <h2>How extraction works</h2>
       <p>
@@ -50,11 +57,28 @@ POST /v1/batch        # submit up to 100 documents at once
 GET  /v1/results/:id  # fetch the result of an async job`}</code>
       </pre>
 
+      <h2>Example JSON response</h2>
+      <p>
+        A successful invoice extraction returns typed fields in a JSON object.
+        This demonstration response shows a string vendor and currency, a numeric
+        total and an ISO-formatted due date:
+      </p>
+      <pre>
+        <code>{`{
+  "vendor": "Acme BV",
+  "total": 1240.50,
+  "currency": "EUR",
+  "due_date": "2024-06-30"
+}`}</code>
+      </pre>
+
       <h2>Pricing</h2>
       <p>
-        Klerq uses usage-based pricing. See the{" "}
-        <Link href="/pricing">pricing page</Link> for current rates, or{" "}
-        <Link href="/contact">get in touch</Link> for volume plans.
+        Klerq has no paid plans, usage rates or volume plans. It sells no
+        products or services because this is a fictional API demonstration, so
+        the endpoints and response above cannot be purchased or used to process
+        documents. <Link href="/contact">Contact details</Link> are provided only
+        as part of the Far and Wide B.V. test website.
       </p>
     </div>
   );
