@@ -5,7 +5,7 @@ export const metadata = {
 export default function Contact() {
   return (
     <div className="prose">
-      <h1>Get a key</h1>
+      <h1>Get a Klerq API key</h1>
       <p className="meta">Contact</p>
 
       <p>
