@@ -25,6 +25,20 @@ export default function Post() {
         back structured data.
       </p>
 
+      <img
+        src="/product-shot.svg"
+        alt="Document fields extracted into structured JSON"
+        width={960}
+        height={420}
+        style={{
+          maxWidth: "100%",
+          height: "auto",
+          marginTop: 32,
+          borderRadius: 12,
+          border: "1px solid var(--border)",
+        }}
+      />
+
       <h2>Why document extraction matters</h2>
       <p>
         Invoices and other business documents may look simple, but every vendor
