@@ -3,7 +3,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Klerq",
+  title: "Document-Processing API for Structured Data | Klerq",
 };
 
 export default function RootLayout({
