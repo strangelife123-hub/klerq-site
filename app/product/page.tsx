@@ -8,9 +8,11 @@ export const metadata = {
 
 export default function Product() {
   return (
-    <div className="prose">
-      <h1>The Klerq API — document data extraction</h1>
-      <p className="meta">Product overview</p>
+    <article className="prose">
+      <header>
+        <h1>The Klerq API — document data extraction</h1>
+        <p className="meta">Product overview</p>
+      </header>
 
       <p>
         Klerq is a fictional document-processing API company presented on a
@@ -56,6 +58,6 @@ GET  /v1/results/:id  # fetch the result of an async job`}</code>
         <Link href="/pricing">pricing page</Link> for current rates, or{" "}
         <Link href="/contact">get in touch</Link> for volume plans.
       </p>
-    </div>
+    </article>
   );
 }
