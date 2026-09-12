@@ -23,20 +23,20 @@ export default function Docs() {
         . This page is a short quickstart to get you to your first extraction.
       </p>
 
-      <h2>1. Get a key</h2>
+      <h2>1. How do I get an API key?</h2>
       <p>
         <a href="/contact">Request an API key</a>. You&apos;ll receive a secret
         token that starts with <code className="inline-code">klerq_live_</code>.
       </p>
 
-      <h2>2. Send a document</h2>
+      <h2>2. How do I send a document?</h2>
       <pre>
         <code>{`curl https://api.klerq.io/v1/extract \\
   -H "Authorization: Bearer klerq_live_..." \\
   -F "file=@invoice.pdf"`}</code>
       </pre>
 
-      <h2>3. Read the result</h2>
+      <h2>3. How do I read the result?</h2>
       <p>
         Most documents come back in 1–3 seconds. The response is a JSON object
         with the extracted fields and a confidence score for each one.
