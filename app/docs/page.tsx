@@ -12,7 +12,7 @@ export const metadata = {
 export default function Docs() {
   return (
     <div className="prose">
-      <h1>Documentation</h1>
+      <h1>Klerq API Documentation</h1>
       <p className="meta">Quickstart</p>
 
       <p>
