@@ -3,8 +3,69 @@ import Link from "next/link";
 import { faqs } from "@/data/faq";
 
 export default function Home() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: "https://klerq-site.vercel.app/",
+          },
+        ],
+      },
+      {
+        "@type": "ItemList",
+        name: "Klerq API features",
+        numberOfItems: 3,
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            item: {
+              "@type": "Service",
+              name: "One endpoint",
+              description:
+                "POST a PDF or image to a single endpoint and receive typed JSON.",
+              url: "https://klerq-site.vercel.app/product",
+            },
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            item: {
+              "@type": "Service",
+              name: "Pre-built extractors",
+              description:
+                "Invoices, receipts, contracts and common forms work out of the box.",
+              url: "https://klerq-site.vercel.app/product",
+            },
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            item: {
+              "@type": "Service",
+              name: "Fits your stack",
+              description:
+                "A REST API with helper libraries for Python and JavaScript.",
+              url: "https://klerq-site.vercel.app/docs",
+            },
+          },
+        ],
+      },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
       <section className="hero" style={{ borderTop: "none" }}>
         <div className="container">
           <div className="eyebrow">Document AI, for builders</div>
