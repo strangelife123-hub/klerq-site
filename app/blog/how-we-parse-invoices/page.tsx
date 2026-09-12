@@ -4,7 +4,7 @@ export const metadata = {
 
 export default function Post() {
   return (
-    <div className="prose">
+    <article className="prose">
       <h1>How we parse a messy invoice</h1>
       <p className="meta">2 September 2023</p>
 
@@ -40,6 +40,6 @@ export default function Post() {
         The result is the same structured JSON whether the invoice came from a
         clean PDF or a photo taken in a warehouse.
       </p>
-    </div>
+    </article>
   );
 }
