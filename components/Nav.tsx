@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Nav() {
   return (
-    <nav className="nav">
-      <div className="container nav-inner">
+    <header className="nav">
+      <nav className="container nav-inner">
         <Link href="/" className="brand">
           <span className="dot" />
           Klerq
@@ -16,7 +16,7 @@ export default function Nav() {
           <Link href="/about">About</Link>
           <Link href="/contact" className="btn">Get a key</Link>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
   );
 }

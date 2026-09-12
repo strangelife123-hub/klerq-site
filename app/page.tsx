@@ -48,27 +48,27 @@ export default function Home() {
             to.
           </p>
           <div className="grid grid-3">
-            <div className="card">
+            <article className="card">
               <h3>One endpoint</h3>
               <p>
                 POST a PDF or image to a single endpoint and receive typed JSON.
                 No pipelines to wire up.
               </p>
-            </div>
-            <div className="card">
+            </article>
+            <article className="card">
               <h3>Pre-built extractors</h3>
               <p>
                 Invoices, receipts, contracts and common forms work out of the
                 box. Nothing to label.
               </p>
-            </div>
-            <div className="card">
+            </article>
+            <article className="card">
               <h3>Fits your stack</h3>
               <p>
                 A plain REST API with helper libraries for Python and
                 JavaScript. Drop it into any codebase.
               </p>
-            </div>
+            </article>
           </div>
         </div>
       </section>
