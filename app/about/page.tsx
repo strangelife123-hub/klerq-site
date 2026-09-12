@@ -13,7 +13,7 @@ export default function About() {
   return (
     <div className="prose">
       <h1>About Klerq</h1>
-      <p className="meta">Who we are</p>
+      <h2 className="meta">Who we are</h2>
 
       <p>
         Klerq is a fictional developer document-processing API company used in
