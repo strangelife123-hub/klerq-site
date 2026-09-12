@@ -7,6 +7,17 @@ export default function Home() {
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "FAQPage",
+        mainEntity: faqs.map((faq) => ({
+          "@type": "Question",
+          name: faq.question,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: faq.answer,
+          },
+        })),
+      },
+      {
         "@type": "BreadcrumbList",
         itemListElement: [
           {
