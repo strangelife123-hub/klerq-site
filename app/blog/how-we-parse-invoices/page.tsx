@@ -2,6 +2,8 @@ import BlogPostSchema from "@/components/BlogPostSchema";
 
 export const metadata = {
   title: "How we parse a messy invoice",
+  description:
+    "Technical article: See how Klerq normalises invoice scans, analyses layouts and extracts typed fields as structured JSON with confidence scores.",
 };
 
 export default function Post() {

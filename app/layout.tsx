@@ -4,6 +4,8 @@ import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Klerq",
+  description:
+    "Product overview: Klerq is a fictional document-processing API demo that turns invoices, contracts and forms into structured JSON with one API call.",
 };
 
 export default function RootLayout({

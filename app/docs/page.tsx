@@ -5,7 +5,7 @@ export const metadata = {
   openGraph: {
   url: "https://klerq-site.vercel.app/docs",
   description: "Demonstration documentation for the fictional Klerq document-processing API company.", title: "Klerq Documentation — Fictional API Demo" },
-  description: "Demonstration documentation for Klerq, a fictional document-processing API company used for Far and Wide B.V. testing.",
+  description: "API documentation: Follow the Klerq demonstration quickstart to send a document and receive extracted fields with confidence scores as JSON.",
   title: "Klerq Docs",
 };
 

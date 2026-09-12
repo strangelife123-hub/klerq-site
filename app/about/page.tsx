@@ -5,7 +5,7 @@ export const metadata = {
   openGraph: {
   url: "https://klerq-site.vercel.app/about",
   description: "Learn why Far and Wide B.V. operates Klerq as a fictional website for end-to-end testing.", title: "About Klerq — A Fictional API Demo" },
-  description: "Klerq is a fictional API-company demonstration operated by Far and Wide B.V. to test audit and fix machinery.",
+  description: "Company information: Learn why Far and Wide B.V. operates Klerq as a fictional document-processing API website for end-to-end testing.",
   title: "About Klerq",
 };
 
