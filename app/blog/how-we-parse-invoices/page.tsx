@@ -5,7 +5,7 @@ export const metadata = {
 export default function Post() {
   return (
     <article className="prose">
-      <h1>How we parse a messy invoice</h1>
+      <h1>How Klerq’s document-processing API parses a messy invoice</h1>
       <p className="meta">2 September 2023</p>
 
       <p>
