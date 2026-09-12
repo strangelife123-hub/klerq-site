@@ -15,6 +15,12 @@ end to end.
 
 Nothing here is real. All companies, customers, metrics and testimonials are fictional.
 
+## Image accessibility
+
+Every meaningful image must have concise, descriptive alt text that communicates its
+content and purpose. Decorative images must use `alt=""`. Apply this rule to SVGs as
+well as raster images, and check rendered pages before merging.
+
 ## Stack shape (why it's built this way)
 
 Shaped to match what the Far & Wide GitHub dispatcher can read and fix:
