@@ -15,6 +15,13 @@ end to end.
 
 Nothing here is real. All companies, customers, metrics and testimonials are fictional.
 
+## Language strategy
+
+The site is English-only. Every route uses the root layout's `lang="en"`, and there
+are no translated or locale-specific URLs, so `hreflang` annotations are intentionally
+omitted. If translated routes are introduced, add reciprocal `hreflang` annotations
+(including `x-default` where appropriate) before those routes launch.
+
 ## Image accessibility
 
 Every meaningful image must have concise, descriptive alt text that communicates its
