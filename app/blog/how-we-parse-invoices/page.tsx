@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const metadata = {
   title: "How we parse a messy invoice",
 };
@@ -39,6 +41,11 @@ export default function Post() {
       <p>
         The result is the same structured JSON whether the invoice came from a
         clean PDF or a photo taken in a warehouse.
+      </p>
+
+      <p>
+        For the broader product story, read <Link href="/blog/introducing-klerq">why
+        Klerq was created</Link>.
       </p>
     </div>
   );

@@ -91,7 +91,7 @@ export default function Home() {
 
       <section>
         <div className="container">
-          <h2>Explore document extraction</h2>
+          <h2>From the blog</h2>
           <p className="lead">
             Learn more about the API and how Klerq handles real document layouts.
             Browse all <Link href="/blog">notes on documents and data</Link>.

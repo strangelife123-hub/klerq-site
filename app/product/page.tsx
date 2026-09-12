@@ -43,6 +43,14 @@ export default function Product() {
         trusting a bad value.
       </p>
 
+      <h2>From the blog</h2>
+      <p>
+        Read the technical walkthrough of <Link href="/blog/how-we-parse-invoices">how
+        Klerq normalises pages, understands invoice layouts, and extracts typed
+        fields</Link>, or learn <Link href="/blog/introducing-klerq">why Klerq was
+        created</Link>.
+      </p>
+
       <h2>Endpoints</h2>
       <pre>
         <code>{`POST /v1/extract      # extract fields from a single document

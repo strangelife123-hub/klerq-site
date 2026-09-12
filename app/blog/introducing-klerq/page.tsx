@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const metadata = {
   title: "Introducing Klerq",
 };
@@ -34,6 +36,11 @@ export default function Post() {
         During the beta, Klerq is priced at €0.02 per page with the first 500
         pages free. Head to the docs to send your first document, and let us
         know what you think.
+      </p>
+
+      <p>
+        For a technical explanation, read <Link href="/blog/how-we-parse-invoices">how
+        Klerq parses a messy invoice</Link> from page normalisation to typed fields.
       </p>
     </div>
   );
