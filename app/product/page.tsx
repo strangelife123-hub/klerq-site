@@ -18,6 +18,20 @@ export default function Product() {
         API or software provider and sells no products or services.
       </p>
 
+      <img
+        src="/product-shot.svg"
+        alt="Document fields extracted into structured JSON"
+        width={960}
+        height={420}
+        style={{
+          maxWidth: "100%",
+          height: "auto",
+          marginTop: 32,
+          borderRadius: 12,
+          border: "1px solid var(--border)",
+        }}
+      />
+
       <h2>Supported document types</h2>
       <p>
         Klerq ships with pre-built extractors for the documents businesses deal
