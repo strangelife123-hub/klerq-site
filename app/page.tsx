@@ -91,6 +91,30 @@ export default function Home() {
 
       <section>
         <div className="container">
+          <h2>Explore document extraction</h2>
+          <p className="lead">
+            Learn more about the API and how Klerq handles real document layouts.
+            Browse all <Link href="/blog">notes on documents and data</Link>.
+          </p>
+          <div className="grid grid-3">
+            <div className="card">
+              <h3>Document extraction overview</h3>
+              <p>See the <Link href="/product">supported document types, extraction pipeline and API endpoints</Link>.</p>
+            </div>
+            <div className="card">
+              <h3>How we parse a messy invoice</h3>
+              <p>Read how Klerq <Link href="/blog/how-we-parse-invoices">detects invoice layouts, tables and totals</Link> before returning typed fields.</p>
+            </div>
+            <div className="card">
+              <h3>Introducing Klerq</h3>
+              <p>Learn <Link href="/blog/introducing-klerq">why the document-processing API was created</Link> and how to get started.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="container">
           <h2>Frequently asked questions</h2>
           <div style={{ marginTop: 28 }}>
             {faqs.map((f) => (
