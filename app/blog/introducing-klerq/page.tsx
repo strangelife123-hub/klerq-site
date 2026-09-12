@@ -21,7 +21,7 @@ export default function Post() {
         templates to draw. You send a file, you get back data.
       </p>
 
-      <h2>Why now</h2>
+      <h2>Why teams need Klerq now</h2>
       <p>
         Every team we talked to had the same story: a pile of PDFs, a fragile
         script held together with regular expressions, and someone whose job had
@@ -29,7 +29,7 @@ export default function Post() {
         engineers.
       </p>
 
-      <h2>Getting started</h2>
+      <h2>Getting started with Klerq</h2>
       <p>
         During the beta, Klerq is priced at €0.02 per page with the first 500
         pages free. Head to the docs to send your first document, and let us
