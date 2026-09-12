@@ -22,6 +22,19 @@ export default function Blog() {
     <div className="container" style={{ paddingTop: 64, paddingBottom: 48 }}>
       <h1 style={{ fontSize: 42, letterSpacing: "-1px" }}>Blog</h1>
       <p className="lead">Notes on documents, data and the API.</p>
+      <img
+        src="/product-shot.svg"
+        alt="Klerq document extraction example showing invoice fields as structured JSON"
+        width={960}
+        height={420}
+        style={{
+          maxWidth: "100%",
+          height: "auto",
+          marginTop: 32,
+          borderRadius: 12,
+          border: "1px solid var(--border)",
+        }}
+      />
       <ul className="post-list">
         {posts.map((p) => (
           <li key={p.slug}>
