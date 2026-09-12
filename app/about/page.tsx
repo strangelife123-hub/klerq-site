@@ -12,7 +12,7 @@ export const metadata = {
 export default function About() {
   return (
     <div className="prose">
-      <h1>About</h1>
+      <h1>About Klerq</h1>
       <p className="meta">Who we are</p>
 
       <p>
