@@ -2,6 +2,7 @@ export const metadata = {
   title: "Contact Klerq",
   description:
     "Contact page: Learn how to reach the fictional Klerq API demo and why this Far and Wide B.V. test website does not issue working API keys.",
+  alternates: { canonical: "/contact" },
 };
 
 export default function Contact() {

@@ -1,6 +1,7 @@
 export const metadata = {
   title: "Pricing — Klerq",
   description: "Pricing information for the fictional Klerq demonstration website.",
+  alternates: { canonical: "/pricing" },
 };
 
 export default function Pricing() {

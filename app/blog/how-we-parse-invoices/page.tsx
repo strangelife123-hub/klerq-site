@@ -4,6 +4,7 @@ export const metadata = {
   title: "How we parse a messy invoice",
   description:
     "Technical article: See how Klerq normalises invoice scans, analyses layouts and extracts typed fields as structured JSON with confidence scores.",
+  alternates: { canonical: "/blog/how-we-parse-invoices" },
 };
 
 export default function Post() {

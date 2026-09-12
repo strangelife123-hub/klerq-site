@@ -3,9 +3,13 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
 export const metadata = {
+  metadataBase: new URL("https://klerq-site.vercel.app"),
   title: "Klerq",
   description:
     "Product overview: Klerq is a fictional document-processing API demo that turns invoices, contracts and forms into structured JSON with one API call.",
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function RootLayout({
