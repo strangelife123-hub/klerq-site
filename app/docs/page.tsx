@@ -10,8 +10,59 @@ export const metadata = {
 };
 
 export default function Docs() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "TechArticle",
+        "@id": "https://klerq-site.vercel.app/docs#article",
+        headline: "Klerq Documentation",
+        description:
+          "A quickstart for the fictional Klerq document-processing API.",
+        url: "https://klerq-site.vercel.app/docs",
+        inLanguage: "en",
+        publisher: { "@id": "https://klerq-site.vercel.app/#organization" },
+        about: { "@id": "https://klerq-site.vercel.app/#software" },
+        mainEntityOfPage: "https://klerq-site.vercel.app/docs",
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://klerq-site.vercel.app/#software",
+        name: "Klerq API",
+        applicationCategory: "DeveloperApplication",
+        operatingSystem: "Any",
+        description:
+          "A fictional document-processing API that turns documents into structured JSON.",
+        url: "https://klerq-site.vercel.app/product",
+        provider: { "@id": "https://klerq-site.vercel.app/#organization" },
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: "https://klerq-site.vercel.app/",
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Documentation",
+            item: "https://klerq-site.vercel.app/docs",
+          },
+        ],
+      },
+    ],
+  };
+
   return (
-    <div className="prose">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <div className="prose">
       <h1>Documentation</h1>
       <p className="meta">Quickstart</p>
 
@@ -51,5 +102,6 @@ export default function Docs() {
         .
       </p>
     </div>
+  </>
   );
 }
