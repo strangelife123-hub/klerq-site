@@ -20,7 +20,9 @@ const posts = [
 export default function Blog() {
   return (
     <div className="container" style={{ paddingTop: 64, paddingBottom: 48 }}>
-      <h1 style={{ fontSize: 42, letterSpacing: "-1px" }}>Blog</h1>
+      <h1 style={{ fontSize: 42, letterSpacing: "-1px" }}>
+        Klerq document-processing API blog
+      </h1>
       <p className="lead">Notes on documents, data and the API.</p>
       <ul className="post-list">
         {posts.map((p) => (
