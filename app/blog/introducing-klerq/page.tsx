@@ -6,7 +6,7 @@ export default function Post() {
   return (
     <article className="prose">
       <header>
-        <h1>Introducing Klerq</h1>
+        <h1>Introducing Klerq, a document extraction API</h1>
         <p className="meta">14 March 2022</p>
       </header>
 
