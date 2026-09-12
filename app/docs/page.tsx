@@ -23,6 +23,20 @@ export default function Docs() {
         . This page is a short quickstart to get you to your first extraction.
       </p>
 
+      <img
+        src="/product-shot.svg"
+        alt="Invoice document beside extracted vendor, total, currency, due date and confidence fields in JSON"
+        width={960}
+        height={420}
+        style={{
+          maxWidth: "100%",
+          height: "auto",
+          marginTop: 32,
+          borderRadius: 12,
+          border: "1px solid var(--border)",
+        }}
+      />
+
       <h2>1. Get a key</h2>
       <p>
         <a href="/contact">Request an API key</a>. You&apos;ll receive a secret
