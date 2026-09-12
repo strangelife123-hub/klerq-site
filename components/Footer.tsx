@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer-grid">
         <div>
-          <h3>Klerq API</h3>
+          <h2>Klerq API</h2>
           <p style={{ maxWidth: 260, margin: 0 }}>
             Turn documents into structured data with one API call.
           </p>

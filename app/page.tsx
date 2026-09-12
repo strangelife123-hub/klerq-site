@@ -76,7 +76,7 @@ export default function Home() {
       <section>
         <div className="container">
           <h2>How it works</h2>
-          <p className="lead">Three lines to your first extraction.</p>
+          <h3 className="lead">Three lines to your first extraction.</h3>
           <pre>
             <code>{`curl https://api.klerq.io/v1/extract \\
   -H "Authorization: Bearer $KLERQ_KEY" \\
