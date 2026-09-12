@@ -4,9 +4,11 @@ export const metadata = {
 
 export default function Post() {
   return (
-    <div className="prose">
-      <h1>Introducing Klerq</h1>
-      <p className="meta">14 March 2022</p>
+    <article className="prose">
+      <header>
+        <h1>Introducing Klerq</h1>
+        <p className="meta">14 March 2022</p>
+      </header>
 
       <p>
         Today we&apos;re presenting Klerq, a fictional API demo for turning documents
@@ -21,20 +23,24 @@ export default function Post() {
         templates to draw. You send a file, you get back data.
       </p>
 
-      <h2>Why teams need Klerq now</h2>
+      <section>
+        <h2>Why teams need Klerq now</h2>
       <p>
         Every team we talked to had the same story: a pile of PDFs, a fragile
         script held together with regular expressions, and someone whose job had
         quietly become fixing it. We think that&apos;s a waste of good
         engineers.
       </p>
+      </section>
 
-      <h2>Getting started with Klerq</h2>
+      <section>
+        <h2>Getting started with Klerq</h2>
       <p>
         During the beta, Klerq is priced at €0.02 per page with the first 500
         pages free. Head to the docs to send your first document, and let us
         know what you think.
       </p>
-    </div>
+      </section>
+    </article>
   );
 }
