@@ -48,3 +48,5 @@ Disallow: /
 
 User-agent: *
 Allow: /
+
+Sitemap: https://klerq-site.vercel.app/sitemap.xml
