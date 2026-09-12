@@ -1,11 +1,19 @@
+import BlogPostSchema from "@/components/BlogPostSchema";
+
 export const metadata = {
   title: "Introducing Klerq",
 };
 
 export default function Post() {
   return (
-    <div className="prose">
-      <h1>Introducing Klerq</h1>
+    <>
+      <BlogPostSchema
+        headline="Introducing Klerq"
+        datePublished="2022-03-14"
+        slug="introducing-klerq"
+      />
+      <div className="prose">
+        <h1>Introducing Klerq</h1>
       <p className="meta">14 March 2022</p>
 
       <p>
@@ -36,5 +44,6 @@ export default function Post() {
         know what you think.
       </p>
     </div>
+    </>
   );
 }
