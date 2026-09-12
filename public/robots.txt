@@ -31,3 +31,5 @@ Allow: /
 # Klerq — robots.txt
 User-agent: *
 Allow: /
+
+Sitemap: https://klerq-site.vercel.app/sitemap.xml
