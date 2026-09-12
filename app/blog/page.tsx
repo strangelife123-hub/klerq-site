@@ -28,7 +28,9 @@ export default function Blog() {
         {posts.map((p) => (
           <li key={p.slug}>
             <div className="date">{p.date}</div>
-            <Link href={`/blog/${p.slug}`}>{p.title}</Link>
+            <Link href={`/blog/${p.slug}`}>
+              <h2 style={{ margin: 0, fontSize: "inherit" }}>{p.title}</h2>
+            </Link>
           </li>
         ))}
       </ul>
