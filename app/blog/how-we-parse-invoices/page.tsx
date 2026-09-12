@@ -15,6 +15,20 @@ export default function Post() {
         into clean fields.
       </p>
 
+      <img
+        src="/product-shot.svg"
+        alt="Invoice processing diagram showing a source document converted into typed JSON fields for vendor, total, currency, due date and confidence"
+        width={960}
+        height={420}
+        style={{
+          maxWidth: "100%",
+          height: "auto",
+          marginTop: 32,
+          borderRadius: 12,
+          border: "1px solid var(--border)",
+        }}
+      />
+
       <h2>Step 1: normalise the page</h2>
       <p>
         Scans come in rotated, skewed and at wildly different resolutions. Before
