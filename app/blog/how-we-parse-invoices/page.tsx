@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "How we parse a messy invoice",
+  title: "How Klerq Parses Messy Invoices into JSON",
 };
 
 export default function Post() {

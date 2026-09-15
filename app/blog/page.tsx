@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Klerq Blog",
+  title: "Klerq Document-Processing API Demo Blog",
 };
 
 const posts = [

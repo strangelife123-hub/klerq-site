@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Introducing Klerq",
+  title: "Introducing Klerq: A Document-Processing API",
 };
 
 export default function Post() {

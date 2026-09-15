@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Contact Klerq",
+  title: "Contact Klerq Document-Processing API Demo",
 };
 
 export default function Contact() {

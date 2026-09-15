@@ -6,7 +6,7 @@ export const metadata = {
   url: "https://klerq-site.vercel.app/docs",
   description: "Demonstration documentation for the fictional Klerq document-processing API company.", title: "Klerq Documentation — Fictional API Demo" },
   description: "Demonstration documentation for Klerq, a fictional document-processing API company used for Far and Wide B.V. testing.",
-  title: "Klerq Docs",
+  title: "Klerq Document-Processing API Documentation",
 };
 
 export default function Docs() {
