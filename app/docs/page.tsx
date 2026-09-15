@@ -16,11 +16,7 @@ export default function Docs() {
       <p className="meta">Quickstart</p>
 
       <p>
-        The full API reference, SDK guides and code samples live in our{" "}
-        <a href="https://github.com/strangelife123-hub/klerq-docs">
-          GitHub documentation repository
-        </a>
-        . This page is a short quickstart to get you to your first extraction.
+        This page is a short quickstart to get you to your first extraction.
       </p>
 
       <h2>1. Get a key</h2>
@@ -42,14 +38,6 @@ export default function Docs() {
         with the extracted fields and a confidence score for each one.
       </p>
 
-      <p>
-        For everything else — batch jobs, webhooks, the full field schema — see
-        the{" "}
-        <a href="https://github.com/strangelife123-hub/klerq-docs">
-          reference on GitHub
-        </a>
-        .
-      </p>
     </div>
   );
 }

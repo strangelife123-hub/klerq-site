@@ -24,8 +24,6 @@ export default function Footer() {
         </div>
         <div>
           <h6>Developers</h6>
-          <a href="https://github.com/strangelife123-hub/klerq-docs">GitHub</a>
-          <a href="https://github.com/strangelife123-hub/klerq-docs">API reference</a>
           <Link href="/docs">Quickstart</Link>
         </div>
       </div>
