@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const metadata = {
   title: "Introducing Klerq",
 };
@@ -10,8 +12,8 @@ export default function Post() {
 
       <p>
         Today we&apos;re presenting Klerq, a fictional API demo for turning documents
-        into structured data. For the last year we&apos;ve been building
-        document extraction into our own products, and we kept wishing there was
+        into structured data. For the last year we&apos;ve been building{" "}
+        <Link href="/blog/how-we-parse-invoices">document extraction</Link> into our own products, and we kept wishing there was
         a service we could just call. So we built one.
       </p>
 

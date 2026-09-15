@@ -33,7 +33,7 @@ export default function Product() {
       <h2>How extraction works</h2>
       <p>
         Every request runs through the same pipeline: the document is
-        normalised, its layout is analysed, and the relevant fields are pulled
+        <Link href="/blog/how-we-parse-invoices">normalised, its layout is analysed, and the relevant fields are pulled</Link>
         out and typed. Every request returns in under 2 seconds, even for
         multi-page files.
       </p>

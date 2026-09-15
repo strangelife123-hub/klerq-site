@@ -10,7 +10,7 @@ export default function Home() {
           <div className="eyebrow">Document AI, for builders</div>
           <h1>Document-processing API — Klerq</h1>
           <p className="sub">
-            Klerq turns invoices, contracts and forms into clean, structured
+            <Link href="/blog/introducing-klerq">Klerq</Link> turns invoices, contracts and forms into clean, structured
             JSON — with a single API call. No models to train, no templates to
             draw.
           </p>
@@ -44,7 +44,7 @@ export default function Home() {
           <h2>One API. Every document.</h2>
           <p className="lead">
             Send a file, get back structured fields. Klerq handles the messy
-            parts — layout, tables, handwriting, scans — so you don&apos;t have
+            parts — <Link href="/blog/how-we-parse-invoices">layout, tables, handwriting, scans</Link> — so you don&apos;t have
             to.
           </p>
           <div className="grid grid-3">
