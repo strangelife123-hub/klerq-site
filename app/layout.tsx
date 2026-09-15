@@ -3,7 +3,11 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
 export const metadata = {
+  metadataBase: new URL("https://klerq-site.vercel.app"),
   title: "Klerq",
+  alternates: {
+    canonical: "./",
+  },
 };
 
 export default function RootLayout({
