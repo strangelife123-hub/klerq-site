@@ -2,9 +2,43 @@
 import Link from "next/link";
 import { faqs } from "@/data/faq";
 
+const capabilityList = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  name: "Klerq API capabilities",
+  numberOfItems: 3,
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "One endpoint",
+      description:
+        "POST a PDF or image to a single endpoint and receive typed JSON. No pipelines to wire up.",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Pre-built extractors",
+      description:
+        "Invoices, receipts, contracts and common forms work out of the box. Nothing to label.",
+    },
+    {
+      "@type": "ListItem",
+      position: 3,
+      name: "Fits your stack",
+      description:
+        "A plain REST API with helper libraries for Python and JavaScript. Drop it into any codebase.",
+    },
+  ],
+};
+
 export default function Home() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(capabilityList) }}
+      />
       <section className="hero" style={{ borderTop: "none" }}>
         <div className="container">
           <div className="eyebrow">Document AI, for builders</div>

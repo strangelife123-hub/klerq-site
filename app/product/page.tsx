@@ -6,9 +6,30 @@ export const metadata = {
     "Klerq is a document-processing API that extracts structured fields from invoices, contracts and forms. One endpoint, typed JSON, no training required.",
 };
 
+const documentTypeList = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  name: "Supported document types",
+  numberOfItems: 4,
+  itemListElement: [
+    "Invoices and credit notes",
+    "Receipts and expense records",
+    "Contracts and agreements",
+    "Structured forms and applications",
+  ].map((name, index) => ({
+    "@type": "ListItem",
+    position: index + 1,
+    name,
+  })),
+};
+
 export default function Product() {
   return (
     <div className="prose">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(documentTypeList) }}
+      />
       <h1>The Klerq API — document data extraction</h1>
       <p className="meta">Product overview</p>
 
