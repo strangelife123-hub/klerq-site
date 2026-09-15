@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const metadata = {
   twitter: {
   description: "Demonstration documentation for the fictional Klerq document-processing API company.",
@@ -41,6 +43,14 @@ export default function Docs() {
         Most documents come back in 1–3 seconds. The response is a JSON object
         with the extracted fields and a confidence score for each one.
       </p>
+
+      <Image
+        src="/product-shot.svg"
+        width={960}
+        height={420}
+        alt="Example Klerq extraction showing invoice fields returned as JSON"
+        style={{ width: "100%", height: "auto", marginTop: 24, borderRadius: 12, border: "1px solid var(--border)" }}
+      />
 
       <p>
         For everything else — batch jobs, webhooks, the full field schema — see
