@@ -10,10 +10,59 @@ export const metadata = {
 };
 
 export default function Docs() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "TechArticle",
+        "@id": "https://klerq-site.vercel.app/docs#article",
+        headline: "Documentation",
+        description:
+          "A short quickstart to get you to your first Klerq document extraction.",
+        url: "https://klerq-site.vercel.app/docs",
+        inLanguage: "en",
+        about: {
+          "@type": "SoftwareApplication",
+          name: "Klerq document-processing API",
+          applicationCategory: "DeveloperApplication",
+        },
+        publisher: {
+          "@id": "https://klerq-site.vercel.app/#organization",
+        },
+        isPartOf: {
+          "@id": "https://klerq-site.vercel.app/#website",
+        },
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://klerq-site.vercel.app/docs#breadcrumb",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Klerq",
+            item: "https://klerq-site.vercel.app/",
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Documentation",
+            item: "https://klerq-site.vercel.app/docs",
+          },
+        ],
+      },
+    ],
+  };
+
   return (
-    <div className="prose">
-      <h1>Documentation</h1>
-      <p className="meta">Quickstart</p>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <div className="prose">
+        <h1>Documentation</h1>
+        <p className="meta">Quickstart</p>
 
       <p>
         The full API reference, SDK guides and code samples live in our{" "}
@@ -51,5 +100,6 @@ export default function Docs() {
         .
       </p>
     </div>
+  </>
   );
 }
