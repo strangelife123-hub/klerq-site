@@ -7,6 +7,7 @@ export const metadata = {
   description: "Learn why Far and Wide B.V. operates Klerq as a fictional website for end-to-end testing.", title: "About Klerq — A Fictional API Demo" },
   description: "Klerq is a fictional API-company demonstration operated by Far and Wide B.V. to test audit and fix machinery.",
   title: "About Klerq",
+  alternates: { canonical: "/about" },
 };
 
 export default function About() {

@@ -1,5 +1,6 @@
 export const metadata = {
   title: "Introducing Klerq",
+  alternates: { canonical: "/blog/introducing-klerq" },
 };
 
 export default function Post() {

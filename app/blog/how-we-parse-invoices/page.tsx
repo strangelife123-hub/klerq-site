@@ -1,5 +1,6 @@
 export const metadata = {
   title: "How we parse a messy invoice",
+  alternates: { canonical: "/blog/how-we-parse-invoices" },
 };
 
 export default function Post() {

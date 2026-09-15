@@ -1,5 +1,6 @@
 export const metadata = {
   title: "Contact Klerq",
+  alternates: { canonical: "/contact" },
 };
 
 export default function Contact() {

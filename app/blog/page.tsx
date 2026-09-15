@@ -2,6 +2,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Klerq Blog",
+  alternates: { canonical: "/blog" },
 };
 
 const posts = [
