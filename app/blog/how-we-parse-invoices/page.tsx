@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const metadata = {
   title: "How we parse a messy invoice",
 };
@@ -40,6 +42,14 @@ export default function Post() {
         The result is the same structured JSON whether the invoice came from a
         clean PDF or a photo taken in a warehouse.
       </p>
+
+      <Image
+        src="/product-shot.svg"
+        alt="Invoice document alongside extracted JSON fields for vendor, total, currency, due date and confidence"
+        width={960}
+        height={420}
+        style={{ width: "100%", height: "auto", marginTop: 24, borderRadius: 12, border: "1px solid var(--border)" }}
+      />
     </div>
   );
 }
