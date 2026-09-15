@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const metadata = {
   title: "Introducing Klerq",
 };
@@ -16,7 +18,7 @@ export default function Post() {
       </p>
 
       <p>
-        Klerq takes a document — an invoice, a receipt, a contract — and returns
+        <Link href="/product">Klerq takes a document</Link> — an invoice, a receipt, a contract — and returns
         the fields you need as JSON. There are no models to train and no
         templates to draw. You send a file, you get back data.
       </p>

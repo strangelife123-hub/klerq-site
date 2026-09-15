@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const metadata = {
   title: "How we parse a messy invoice",
 };
@@ -11,7 +13,7 @@ export default function Post() {
       <p>
         Invoices look simple until you have to read ten thousand of them. Every
         vendor has its own layout, its own idea of where the total goes, and its
-        own creative approach to dates. Here is roughly how Klerq turns that mess
+        own creative approach to dates. Here is roughly how <Link href="/product">Klerq turns that mess</Link>
         into clean fields.
       </p>
 
