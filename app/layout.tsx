@@ -4,6 +4,9 @@ import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Klerq",
+  openGraph: {
+    title: "Klerq",
+  },
 };
 
 export default function RootLayout({
