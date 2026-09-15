@@ -13,6 +13,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          property="og:image"
+          content="https://klerq-site.vercel.app/product-shot.svg"
+        />
+        <meta property="og:image:width" content="960" />
+        <meta property="og:image:height" content="420" />
+        <meta
+          property="og:image:alt"
+          content="Klerq document extraction API example"
+        />
+      </head>
       <body>
         {/* fw:injected:jsonld:unknown:5038512bea9d */}
         <script
