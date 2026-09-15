@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
@@ -42,6 +43,20 @@ export default function Product() {
         flags low-confidence fields so you can route them for review instead of
         trusting a bad value.
       </p>
+
+      <Image
+        src="/product-shot.svg"
+        alt="Example invoice alongside the structured JSON extracted from it"
+        width={960}
+        height={420}
+        style={{
+          width: "100%",
+          height: "auto",
+          marginTop: 24,
+          borderRadius: 12,
+          border: "1px solid var(--border)",
+        }}
+      />
 
       <h2>Endpoints</h2>
       <pre>
