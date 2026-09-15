@@ -1,5 +1,7 @@
 export const metadata = {
   title: "Contact Klerq",
+  description:
+    "Contact details for Klerq, a fictional demonstration website that serves no real customers, issues no working API keys and offers no paid plans.",
 };
 
 export default function Contact() {

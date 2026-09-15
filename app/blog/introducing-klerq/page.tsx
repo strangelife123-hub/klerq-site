@@ -1,5 +1,7 @@
 export const metadata = {
   title: "Introducing Klerq",
+  description:
+    "Introducing Klerq presents a fictional API demo that turns invoices, receipts and contracts into structured JSON without models or templates.",
 };
 
 export default function Post() {

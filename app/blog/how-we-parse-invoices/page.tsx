@@ -1,5 +1,7 @@
 export const metadata = {
   title: "How we parse a messy invoice",
+  description:
+    "This Klerq demonstration article explains how invoice pages are normalised, layouts analysed, and typed fields returned with confidence scores.",
 };
 
 export default function Post() {

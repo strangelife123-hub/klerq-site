@@ -3,7 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "The Klerq API — extract structured data from documents",
   description:
-    "Klerq is a document-processing API that extracts structured fields from invoices, contracts and forms. One endpoint, typed JSON, no training required.",
+    "Product overview of Klerq, a fictional document-processing API demo covering supported document types, extraction steps, endpoints and example pricing.",
 };
 
 export default function Product() {

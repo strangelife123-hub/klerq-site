@@ -4,6 +4,8 @@ import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Klerq",
+  description:
+    "Klerq is a fictional document-processing API company used by Far and Wide B.V. to test audit and fix machinery; it serves no real customers.",
 };
 
 export default function RootLayout({
