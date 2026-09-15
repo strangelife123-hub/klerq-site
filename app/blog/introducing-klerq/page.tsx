@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const metadata = {
   title: "Introducing Klerq",
 };
@@ -20,6 +22,14 @@ export default function Post() {
         the fields you need as JSON. There are no models to train and no
         templates to draw. You send a file, you get back data.
       </p>
+
+      <Image
+        src="/product-shot.svg"
+        alt="Klerq document extraction interface showing an uploaded document beside structured JSON fields"
+        width={960}
+        height={420}
+        style={{ width: "100%", height: "auto", marginTop: 24, borderRadius: 12, border: "1px solid var(--border)" }}
+      />
 
       <h2>Why now</h2>
       <p>
